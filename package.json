@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Production-ready Express + TypeScript starter template",
   "main": "dist/server.js",
-  "type": "module",
   "scripts": {
     "dev": "nodemon --exec ts-node -r tsconfig-paths/register src/server.ts",
     "build": "tsc",
